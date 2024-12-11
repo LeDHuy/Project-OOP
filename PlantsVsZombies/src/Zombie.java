@@ -64,9 +64,6 @@ public class Zombie {
                 JOptionPane.showMessageDialog(gp, "ZOMBIES ATE YOUR BRAIN !" + '\n' + "Starting the level again");
 @@ -55,25 +70,35 @@
 
-
-
-    int slowInt = 0;
     int slowInt = 0; // Counter for the duration of the slower effect
     /**
      * Applies a slowing effect to the zombie
