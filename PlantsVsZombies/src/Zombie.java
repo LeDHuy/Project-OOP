@@ -42,13 +42,11 @@ public class Zombie {
             if (!isCollides) {
                 // Manage motion, including a slowing effect
                 if (slowInt > 0) {
-                    if (slowInt % 2 == 0) {
                     if (slowInt % 2 == 0) { // When slowed, move at half speed.
                         posX--;
                     }
                     slowInt--;
                 } else {
-                    posX -= 1;
                     posX -= 1; // Common speed of movement
                 }
             } else {
