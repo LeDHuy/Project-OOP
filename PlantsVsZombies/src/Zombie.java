@@ -6,12 +6,6 @@ import java.util.Objects;
 * Controls the movement of zombies, collision detection, and plant interactions.
 */
 public class Zombie {
-    public int health = 1000;
-    public int speed = 1;
-    private GamePanel gp;
-    public int posX = 1000;
-    public int myLane;
-    public boolean isMoving = true;
 //Basic zombie attributes
     public int health = 1000; // The zombie's starting health points
     public int speed = 1; // Movement speed of the zombie
